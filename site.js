@@ -22,7 +22,7 @@ const I18N = {
     "hero.cta2": "Bekijk LinkedIn",
 
     "status.label": "Status",
-    "status.avail": "Beschikbaar vanaf sep. 2026",
+    "status.avail": "In overleg",
     "status.role": "Rol",
     "status.role_v": "Senior Workspace Engineer",
     "status.exp": "Ervaring",
@@ -91,7 +91,7 @@ const I18N = {
     "contact.m3t": "Regio",
     "contact.m3v": "Nederland",
     "contact.m4t": "Beschikbaar",
-    "contact.m4v": "September 2026",
+    "contact.m4v": "In overleg",
 
     "foot.tag": "Senior Modern Workspace Engineering",
     "foot.rights": "Alle rechten voorbehouden."
@@ -113,7 +113,7 @@ const I18N = {
     "hero.cta2": "View LinkedIn",
 
     "status.label": "Status",
-    "status.avail": "Available from Sep 2026",
+    "status.avail": "To be discussed",
     "status.role": "Role",
     "status.role_v": "Senior Workspace Engineer",
     "status.exp": "Experience",
@@ -182,7 +182,7 @@ const I18N = {
     "contact.m3t": "Region",
     "contact.m3v": "Netherlands",
     "contact.m4t": "Available",
-    "contact.m4v": "September 2026",
+    "contact.m4v": "To be discussed",
 
     "foot.tag": "Senior Modern Workspace Engineering",
     "foot.rights": "All rights reserved."
