@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="nl" data-direction="a">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>KuilenTech — Senior engineering & IT-consultancy</title>
+<meta name="description" content="KuilenTech — Brian van der Kuilen. Senior engineer en IT-consultant, inhuurbaar op project- of detacheringsbasis." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="site.css" />
+</head>
+<body>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav">
+  <div class="wrap nav__inner">
+    <a class="brand" href="#top" aria-label="KuilenTech">
+      <span class="mark" aria-hidden="true">
+        <svg viewBox="3 11 104 80" fill="none" stroke="currentColor" stroke-width="9.5" stroke-linecap="round" stroke-linejoin="round">
+          <g transform="translate(50 50) skewX(-9) translate(-50 -50)">
+            <line x1="18" y1="22" x2="18" y2="82"/>
+            <line x1="28" y1="52" x2="50" y2="22"/>
+            <line x1="28" y1="52" x2="50" y2="82"/>
+            <line x1="60" y1="22" x2="95" y2="22"/>
+            <line x1="77.5" y1="22" x2="77.5" y2="82"/>
+          </g>
+        </svg>
+      </span>
+      <span class="brand__name">Kuilen<span>Tech</span></span>
+    </a>
+
+    <nav class="nav__links" aria-label="Primair">
+      <a href="#over" data-i18n="nav.about">Over mij</a>
+      <a href="#diensten" data-i18n="nav.services">Diensten</a>
+      <a href="#tech" data-i18n="nav.tech">Tech-stack</a>
+      <a href="#werkervaring" data-i18n="nav.exp">Ervaring</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <div class="nav__tools">
+      <div class="seg" role="group" aria-label="Taal / Language">
+        <button class="js-lang" data-lang="nl" aria-pressed="true">NL</button>
+        <button class="js-lang" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <div class="seg" role="group" aria-label="Stijl / Style">
+        <button class="js-style" data-style="a" aria-pressed="true">A</button>
+        <button class="js-style" data-style="b" aria-pressed="false">B</button>
+      </div>
+      <a class="btn btn--solid nav__cta" href="#contact" data-i18n="nav.cta">Neem contact op</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero">
+    <div class="wrap hero__grid">
+      <div class="hero__intro">
+        <span class="kicker" data-i18n="hero.kicker">Modern Workspace Engineer · 6+ jaar enterprise</span>
+        <h1 class="hero__title">
+          <span data-i18n="hero.title_a">De moderne werkplek,</span><br/>
+          <em data-i18n="hero.title_b">tot in de puntjes.</em>
+        </h1>
+        <p class="hero__sub" data-i18n="hero.sub">
+          KuilenTech is Brian van de Kuilen — Senior Modern Workspace Engineer met 6+ jaar enterprise-ervaring. Gespecialiseerd in Azure Virtual Desktop, Microsoft Intune en Entra ID. Inhuurbaar op project- of detacheringsbasis.
+        </p>
+        <div class="hero__cta">
+          <a class="btn btn--solid" href="#contact">
+            <span data-i18n="hero.cta1">Plan een kennismaking</span>
+            <span class="arr" aria-hidden="true">↗</span>
+          </a>
+          <a class="btn btn--ghost" href="https://www.linkedin.com/in/brianvandekuilen/" target="_blank" rel="noopener" data-i18n="hero.cta2">Bekijk LinkedIn</a>
+        </div>
+      </div>
+
+      <aside class="statuscard">
+        <span class="mark statuscard__mark" aria-hidden="true">
+          <svg viewBox="3 11 104 80" fill="none" stroke="currentColor" stroke-width="9.5" stroke-linecap="round" stroke-linejoin="round">
+            <g transform="translate(50 50) skewX(-9) translate(-50 -50)">
+              <line x1="18" y1="22" x2="18" y2="82"/>
+              <line x1="28" y1="52" x2="50" y2="22"/>
+              <line x1="28" y1="52" x2="50" y2="82"/>
+              <line x1="60" y1="22" x2="95" y2="22"/>
+              <line x1="77.5" y1="22" x2="77.5" y2="82"/>
+            </g>
+          </svg>
+        </span>
+        <div class="statuscard__top">
+          <span class="kicker nodash" data-i18n="status.label">Status</span>
+          <span class="status__avail"><span class="dot" aria-hidden="true"></span><span data-i18n="status.avail">Beschikbaar vanaf sep. 2026</span></span>
+        </div>
+        <dl>
+          <dt data-i18n="status.role">Rol</dt>
+          <dd data-i18n="status.role_v">Senior Workspace Engineer</dd>
+          <dt data-i18n="status.exp">Ervaring</dt>
+          <dd data-i18n="status.exp_v">6+ jaar enterprise</dd>
+          <dt data-i18n="status.region">Regio</dt>
+          <dd data-i18n="status.region_v">Arnhem · Nijmegen</dd>
+          <dt data-i18n="status.rate">Tarief</dt>
+          <dd data-i18n="status.rate_v">Op aanvraag</dd>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section" id="over">
+    <div class="wrap">
+      <div class="section__head">
+        <div>
+          <span class="kicker" data-i18n="about.kicker">Over mij</span>
+          <h2 class="section__title" data-i18n="about.title">Complexe werkplekken, opgelost.</h2>
+        </div>
+      </div>
+      <div class="about__top">
+        <figure class="about__photo">
+          <img src="media/brian.png" alt="Brian van de Kuilen" loading="lazy" width="896" height="1195" />
+        </figure>
+        <p class="about__lead" data-i18n="about.body">
+          Ik los complexe werkplekvraagstukken op in grote organisaties — van 25.000+ werkplekken tot identity-architectuur. Als senior schakel ik snel, denk ik mee over de architectuur en lever ik werkende oplossingen op. De juiste tool voor het vraagstuk, niet andersom.
+        </p>
+      </div>
+      <div class="about__stats">
+        <div class="stat">
+          <span class="stat__num">6+</span>
+          <span class="stat__label" data-i18n="about.s1l">jaar enterprise-ervaring</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">25.000+</span>
+          <span class="stat__label" data-i18n="about.s2l">werkplekken in beheer</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-i18n="about.s3n">3</span>
+          <span class="stat__label" data-i18n="about.s3l">kernspecialisaties — AVD · Intune · Entra ID</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section class="section" id="diensten">
+    <div class="wrap">
+      <div class="section__head">
+        <div>
+          <span class="kicker" data-i18n="svc.kicker">Wat ik doe</span>
+          <h2 class="section__title" data-i18n="svc.title">Diensten die je direct vooruit helpen.</h2>
+        </div>
+        <p class="section__intro" data-i18n="svc.intro">Van strategisch advies tot hands-on bouwen — als senior schakel ik snel en lever ik werkende oplossingen op.</p>
+      </div>
+
+      <div class="services">
+        <a class="svc" href="#contact">
+          <span class="svc__arrow" aria-hidden="true">↗</span>
+          <span class="svc__num">01</span>
+          <h3 class="svc__title" data-i18n="svc.1t">Modern Workplace Engineering</h3>
+          <p class="svc__desc" data-i18n="svc.1d">Ontwerp en uitrol van Azure Virtual Desktop, Intune en Autopilot. Werkplekken die schalen tot in de tienduizenden.</p>
+          <div class="svc__tags"><span>AVD</span><span>Intune</span><span>Autopilot</span></div>
+        </a>
+        <a class="svc" href="#contact">
+          <span class="svc__arrow" aria-hidden="true">↗</span>
+          <span class="svc__num">02</span>
+          <h3 class="svc__title" data-i18n="svc.2t">Identity & Access</h3>
+          <p class="svc__desc" data-i18n="svc.2d">Veilige identity-architectuur met Entra ID, Conditional Access en MFA. Toegang die klopt — voor iedereen, overal.</p>
+          <div class="svc__tags"><span>Entra ID</span><span>Conditional Access</span><span>MFA</span></div>
+        </a>
+        <a class="svc" href="#contact">
+          <span class="svc__arrow" aria-hidden="true">↗</span>
+          <span class="svc__num">03</span>
+          <h3 class="svc__title" data-i18n="svc.3t">Advies & consultancy</h3>
+          <p class="svc__desc" data-i18n="svc.3d">Architectuuradvies, migratiestrategie en technische reviews. Van vraagstuk naar een helder, werkbaar plan.</p>
+          <div class="svc__tags"><span>Architectuur</span><span>Strategie</span><span>Reviews</span></div>
+        </a>
+        <a class="svc" href="#contact">
+          <span class="svc__arrow" aria-hidden="true">↗</span>
+          <span class="svc__num">04</span>
+          <h3 class="svc__title" data-i18n="svc.4t">Inhuur & detachering</h3>
+          <p class="svc__desc" data-i18n="svc.4d">Tijdelijk een senior aan boord. Flexibel inzetbaar, snel ingewerkt en meteen van waarde.</p>
+          <div class="svc__tags"><span>Flexibel</span><span>Senior</span><span>Remote</span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TECH STACK ===================== -->
+  <section class="section" id="tech">
+    <div class="wrap">
+      <div class="section__head">
+        <div>
+          <span class="kicker" data-i18n="tech.kicker">Tech-stack</span>
+          <h2 class="section__title" data-i18n="tech.title">Gereedschap waarmee ik werk.</h2>
+        </div>
+        <p class="section__intro" data-i18n="tech.intro">Een doorsnede van de technologieën die ik dagelijks inzet. De juiste tool voor het vraagstuk — niet andersom.</p>
+      </div>
+
+      <div class="tech">
+        <div class="tech__cat">
+          <h3 data-i18n="tech.c1">Modern Workplace & EUC</h3>
+          <div class="tech__chips"><span>Azure Virtual Desktop</span><span>Microsoft Intune</span><span>M365</span><span>Autopilot</span><span>MSIX / App Attach</span><span>FlexApp</span><span>ProfileUnity</span></div>
+        </div>
+        <div class="tech__cat">
+          <h3 data-i18n="tech.c2">Identity & Access</h3>
+          <div class="tech__chips"><span>Entra ID</span><span>IAM</span><span>Conditional Access</span><span>MFA</span><span>SC-300</span></div>
+        </div>
+        <div class="tech__cat">
+          <h3 data-i18n="tech.c3">Monitoring & Beheer</h3>
+          <div class="tech__chips"><span>Nexthink</span><span>Recast Software</span></div>
+        </div>
+        <div class="tech__cat">
+          <h3 data-i18n="tech.c4">Cloud</h3>
+          <div class="tech__chips"><span>Azure</span><span>Microsoft 365</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EXPERIENCE ===================== -->
+  <section class="section" id="werkervaring">
+    <div class="wrap">
+      <div class="section__head">
+        <div>
+          <span class="kicker" data-i18n="exp.kicker">Werkervaring</span>
+          <h2 class="section__title" data-i18n="exp.title">Waar ik aan heb gewerkt.</h2>
+        </div>
+        <p class="section__intro" data-i18n="exp.intro">Een greep uit recente opdrachten bij toonaangevende Nederlandse organisaties.</p>
+      </div>
+
+      <ol class="exp">
+        <li class="exp__row">
+          <div class="exp__org">Sogeti <span class="exp__sub">(Capgemini)</span></div>
+          <div class="exp__role">
+            <span data-i18n="exp.role_senior">Senior Modern Workspace Engineer</span>
+            <p class="exp__note" data-i18n="exp.sogeti_note">Onder andere de deployment van 25.000+ werkplekken voor grote enterprise klanten.</p>
+          </div>
+          <div class="exp__when"><span class="tag-now" data-i18n="exp.now">Huidig</span></div>
+        </li>
+        <li class="exp__row">
+          <div class="exp__org">PostNL</div>
+          <div class="exp__role" data-i18n="exp.p_postnl">Live zetten van een wereldwijd gebruikte, business-critical Kiosk-omgeving.</div>
+          <div class="exp__when"></div>
+        </li>
+        <li class="exp__row">
+          <div class="exp__org">Robeco</div>
+          <div class="exp__role" data-i18n="exp.p_robeco">MFA ingericht en Conditional Access-policies opgezet.</div>
+          <div class="exp__when"></div>
+        </li>
+        <li class="exp__row">
+          <div class="exp__org">Port of Rotterdam</div>
+          <div class="exp__role" data-i18n="exp.p_por">iPhone MDM ingericht met Conditional Access.</div>
+          <div class="exp__when"></div>
+        </li>
+        <li class="exp__row">
+          <div class="exp__org" data-i18n="exp.sectors_org">Diverse sectoren</div>
+          <div class="exp__role">
+            <span class="exp__seclead" data-i18n="exp.sectors_lead">Ervaring opgedaan in onder meer:</span>
+            <div class="exp__sectors">
+              <span data-i18n="exp.s1">Semi-overheid</span>
+              <span data-i18n="exp.s2">Nutsbedrijven</span>
+              <span data-i18n="exp.s3">Overheid</span>
+              <span data-i18n="exp.s4">Transport</span>
+              <span data-i18n="exp.s5">Gemeente</span>
+              <span data-i18n="exp.s6">Retail</span>
+              <span data-i18n="exp.s7">Vastgoed</span>
+            </div>
+          </div>
+          <div class="exp__when"></div>
+        </li>
+      </ol>
+
+      <div class="exp__rec">
+        <p data-i18n="exp.rec">Aanbevelingen en de volledige tijdlijn vind je op mijn LinkedIn-profiel.</p>
+        <a class="btn btn--ghost" href="https://www.linkedin.com/in/brianvandekuilen/" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+          <span data-i18n="exp.rec_cta">Bekijk LinkedIn-profiel</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="section contact" id="contact">
+    <div class="wrap">
+      <span class="kicker" data-i18n="contact.kicker">Contact</span>
+      <h2 class="contact__big" data-i18n="contact.big">Klaar om samen te bouwen?</h2>
+      <div class="contact__row">
+        <a class="btn btn--solid" href="mailto:brian@kuilentech.nl">
+          <span data-i18n="contact.cta1">Stuur een bericht</span>
+          <span class="arr" aria-hidden="true">↗</span>
+        </a>
+        <a class="btn btn--ghost" href="https://www.linkedin.com/in/brianvandekuilen/" target="_blank" rel="noopener" data-i18n="contact.cta2">Connect op LinkedIn</a>
+      </div>
+
+      <dl class="contact__meta">
+        <div>
+          <dt data-i18n="contact.m1t">E-mail</dt>
+          <dd><a href="mailto:brian@kuilentech.nl">brian@kuilentech.nl</a></dd>
+        </div>
+        <div>
+          <dt data-i18n="contact.m2t">LinkedIn</dt>
+          <dd><a href="https://www.linkedin.com/in/brianvandekuilen/" target="_blank" rel="noopener" data-i18n="contact.m2v">in/brianvandekuilen</a></dd>
+        </div>
+        <div>
+          <dt data-i18n="contact.m3t">Regio</dt>
+          <dd data-i18n="contact.m3v">Arnhem · Nijmegen</dd>
+        </div>
+        <div>
+          <dt data-i18n="contact.m4t">Beschikbaar</dt>
+          <dd data-i18n="contact.m4v">September 2026</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="foot">
+  <div class="wrap foot__inner">
+    <a class="brand" href="#top" aria-label="KuilenTech">
+      <span class="mark" aria-hidden="true">
+        <svg viewBox="3 11 104 80" fill="none" stroke="currentColor" stroke-width="9.5" stroke-linecap="round" stroke-linejoin="round">
+          <g transform="translate(50 50) skewX(-9) translate(-50 -50)">
+            <line x1="18" y1="22" x2="18" y2="82"/>
+            <line x1="28" y1="52" x2="50" y2="22"/>
+            <line x1="28" y1="52" x2="50" y2="82"/>
+            <line x1="60" y1="22" x2="95" y2="22"/>
+            <line x1="77.5" y1="22" x2="77.5" y2="82"/>
+          </g>
+        </svg>
+      </span>
+      <span class="brand__name">Kuilen<span>Tech</span></span>
+    </a>
+    <div class="foot__meta">
+      © <span id="year">2026</span> KuilenTech · <span data-i18n="foot.rights">Alle rechten voorbehouden.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="site.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
